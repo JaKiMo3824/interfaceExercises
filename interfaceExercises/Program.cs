@@ -10,6 +10,15 @@ namespace interfaceExercises
     {
         static void Main(string[] args)
         {
+            Employee employee = new Employee();
+            employee.FirstName = "Sample";
+            employee.LastName = "Student";
+            employee.Employed = false;
+            
+            
+            employee.Quit();
         }
+
+        
     }
 }
